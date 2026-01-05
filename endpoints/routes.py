@@ -31,5 +31,5 @@ def verify(code):
     
     if doc.exists:
         return {"verified": True}, 200
-    return {"verified": False}, 404
+    return {"verified": False}, 200
 
